@@ -1,3 +1,5 @@
+A web-based app to view available parcel information for Tuscola County, MI built on React.js
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
