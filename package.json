@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@turf/centroid": "^6.0.2",
     "mapbox-gl": "^0.53.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-map-gl": "^4.1.2",
     "react-mapbox-gl": "^4.2.0",
     "react-scripts": "^2.1.8"
   },
