@@ -167,6 +167,7 @@
         "OBJECTID" : 17001, 
         "PIN" : "040-025-000-6000-02", 
         "Acres" : 0, 
+        "Address" : "355 E OHMER, MAYVILLE",
         "send_to_na" : "MIDWEST V LLC", 
         "ownerstree" : "1435 FULTON ST 2ND FL", 
         "ownerCityS" : "GRAND HAVEN MI 49417", 
@@ -174,7 +175,8 @@
         "Shape_Leng" : 1085.9774043, 
         "Shape_Area" : 63207.1846248, 
         "Shape__Area" : 11106.75, 
-        "Shape__Length" : 455.492898879796
+        "Shape__Length" : 455.492898879796,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -201,6 +203,7 @@
         "OBJECTID" : 15770, 
         "PIN" : "040-025-000-5500-00", 
         "Acres" : 7.99953, 
+        "Address" : "5765 FULTON, MAYVILLE",
         "send_to_na" : "LEE-TAYLOR JACQUELYN MYRTLE", 
         "ownerstree" : "5409 PERRY RD", 
         "ownerCityS" : "GRAND BLANC MI 48439", 
@@ -208,7 +211,8 @@
         "Shape_Leng" : 2593.99948276, 
         "Shape_Area" : 348459.692768, 
         "Shape__Area" : 61240.7734375, 
-        "Shape__Length" : 1086.6628736996
+        "Shape__Length" : 1086.6628736996,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -234,6 +238,7 @@
         "OBJECTID" : 15771, 
         "PIN" : "040-025-000-5400-00", 
         "Acres" : 3.99977, 
+        "Address" : "5779 FULTON, MAYVILLE",
         "send_to_na" : "FRENZEL BRADLEY S", 
         "ownerstree" : "5779 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744-9691", 
@@ -241,7 +246,8 @@
         "Shape_Leng" : 2213.99992802, 
         "Shape_Area" : 174230.000857, 
         "Shape__Area" : 30619.6328125, 
-        "Shape__Length" : 927.063424689317
+        "Shape__Length" : 927.063424689317,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -268,6 +274,7 @@
         "OBJECTID" : 15772, 
         "PIN" : "040-025-000-5300-02", 
         "Acres" : 1.99999, 
+        "Address" : "5807 FULTON, MAYVILLE",
         "send_to_na" : "GWYN MICHAEL", 
         "ownerstree" : "5807 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -275,7 +282,8 @@
         "Shape_Leng" : 1228.86004484, 
         "Shape_Area" : 87119.4117362, 
         "Shape__Area" : 15310.21484375, 
-        "Shape__Length" : 514.899054280638
+        "Shape__Length" : 514.899054280638,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -307,6 +315,7 @@
         "OBJECTID" : 15773, 
         "PIN" : "040-025-000-5300-01", 
         "Acres" : 10.601, 
+        "Address" : "FULTON, MAYVILLE",
         "send_to_na" : "TREAT MICHAEL", 
         "ownerstree" : "5717 SCHOTT RD", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -314,7 +323,8 @@
         "Shape_Leng" : 4213.19989835, 
         "Shape_Area" : 461779.974697, 
         "Shape__Area" : 81153.625, 
-        "Shape__Length" : 1765.65979397123
+        "Shape__Length" : 1765.65979397123,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -340,6 +350,7 @@
         "OBJECTID" : 15774, 
         "PIN" : "040-025-000-8400-00", 
         "Acres" : 0.599241, 
+        "Address" : "5841 FULTON, MAYVILLE",
         "send_to_na" : "SUGDEN ALLEN D", 
         "ownerstree" : "5841 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -347,7 +358,8 @@
         "Shape_Leng" : 687.999543021, 
         "Shape_Area" : 26102.9429828, 
         "Shape__Area" : 4587.10546875, 
-        "Shape__Length" : 288.236202425906
+        "Shape__Length" : 288.236202425906,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -641,6 +653,7 @@
         "OBJECTID" : 15783, 
         "PIN" : "040-025-000-2600-00", 
         "Acres" : 9.31577, 
+        "Address" : "601 E OHMER, MAYVILLE",
         "send_to_na" : "MAYVILLE UNITED METHODIST", 
         "ownerstree" : "P O BOX 189", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -648,7 +661,8 @@
         "Shape_Leng" : 2793.27625007, 
         "Shape_Area" : 405803.736252, 
         "Shape__Area" : 71305.1875, 
-        "Shape__Length" : 1170.53239347565
+        "Shape__Length" : 1170.53239347565,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -881,6 +895,7 @@
         "OBJECTID" : 15790, 
         "PIN" : "040-025-000-3600-00", 
         "Acres" : 0.542851, 
+        "Address" : "OHMER, MAYVILLE",
         "send_to_na" : "WELKE - TRUST", 
         "ownerstree" : "P O BOX 249", 
         "ownerCityS" : "MAYVILLE MI 48744-0249", 
@@ -888,7 +903,8 @@
         "Shape_Leng" : 700.521929033, 
         "Shape_Area" : 23646.5788743, 
         "Shape__Area" : 4155.28515625, 
-        "Shape__Length" : 293.54976697279
+        "Shape__Length" : 293.54976697279,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -914,6 +930,7 @@
         "OBJECTID" : 15791, 
         "PIN" : "040-025-000-3200-00", 
         "Acres" : 0.231289, 
+        "Address" : "297 E OHMER, MAYVILLE",
         "send_to_na" : "WELKE - TRUST", 
         "ownerstree" : "P O BOX 249", 
         "ownerCityS" : "MAYVILLE MI 48744-0249", 
@@ -921,7 +938,8 @@
         "Shape_Leng" : 496.932815717, 
         "Shape_Area" : 10074.9688181, 
         "Shape__Area" : 1770.4140625, 
-        "Shape__Length" : 208.535345022223
+        "Shape__Length" : 208.535345022223,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -947,6 +965,7 @@
         "OBJECTID" : 15792, 
         "PIN" : "040-025-000-3300-00", 
         "Acres" : 0.3814, 
+        "Address" : "297 E OHMER, MAYVILLE",
         "send_to_na" : "JUNE ALAN V", 
         "ownerstree" : "3095 BARNES RD", 
         "ownerCityS" : "MILLINGTON MI 48746", 
@@ -954,7 +973,8 @@
         "Shape_Leng" : 616.997568555, 
         "Shape_Area" : 16613.7730886, 
         "Shape__Area" : 2919.42578125, 
-        "Shape__Length" : 258.90069547459
+        "Shape__Length" : 258.90069547459,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -980,6 +1000,7 @@
         "OBJECTID" : 15793, 
         "PIN" : "040-025-000-3400-00", 
         "Acres" : 0.835083, 
+        "Address" : "311 OHMER, MAYVILLE",
         "send_to_na" : "R & R PROPERTY MANAGEMENT LLC", 
         "ownerstree" : "1337 LAKESHORE", 
         "ownerCityS" : "COLUMBIAVILLE MI 48421", 
@@ -987,7 +1008,8 @@
         "Shape_Leng" : 854.037523967, 
         "Shape_Area" : 36376.2227155, 
         "Shape__Area" : 6392.140625, 
-        "Shape__Length" : 358.295957934602
+        "Shape__Length" : 358.295957934602,
+        "Zoning" : "HIGH DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -1012,6 +1034,7 @@
         "OBJECTID" : 15794, 
         "PIN" : "040-025-000-3500-00", 
         "Acres" : 1.05748, 
+        "Address" : "OHMER, MAYVILLE",
         "send_to_na" : "ISTERABADI SAIB - TRUST", 
         "ownerstree" : "10754 BLAZE DR", 
         "ownerCityS" : "RESTON VA 20190", 
@@ -1019,7 +1042,8 @@
         "Shape_Leng" : 1009.03783552, 
         "Shape_Area" : 46063.7479871, 
         "Shape__Area" : 8094.4453125, 
-        "Shape__Length" : 423.386017111658
+        "Shape__Length" : 423.386017111658,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -1045,6 +1069,7 @@
         "OBJECTID" : 15795, 
         "PIN" : "040-025-000-3100-00", 
         "Acres" : 1.40316, 
+        "Address" : "339 E OHMER, MAYVILLE",
         "send_to_na" : "ROBARE JENNETTE (ET AL)", 
         "ownerstree" : "P O BOX 77", 
         "ownerCityS" : "MAYVILLE MI 48744-0077", 
@@ -1052,7 +1077,8 @@
         "Shape_Leng" : 1194.81057335, 
         "Shape_Area" : 61121.7849629, 
         "Shape__Area" : 10740.4375, 
-        "Shape__Length" : 501.367707087915
+        "Shape__Length" : 501.367707087915,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -1082,6 +1108,7 @@
         "OBJECTID" : 15796, 
         "PIN" : "040-025-000-4100-03", 
         "Acres" : 3.07608, 
+        "Address" : "5750 FULTON, MAYVILLE",
         "send_to_na" : "HUNTER MICHAEL A", 
         "ownerstree" : "P O BOX 726", 
         "ownerCityS" : "MAYVILLE MI 48744-0726", 
@@ -1089,7 +1116,8 @@
         "Shape_Leng" : 1694.29957198, 
         "Shape_Area" : 133993.92584, 
         "Shape__Area" : 23549.14453125, 
-        "Shape__Length" : 709.822340194173
+        "Shape__Length" : 709.822340194173,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -1114,6 +1142,7 @@
         "OBJECTID" : 15797, 
         "PIN" : "040-025-000-4000-00", 
         "Acres" : 0.567031, 
+        "Address" : "5764 FULTON, MAYVILLE",
         "send_to_na" : "PATTERSON DAVID C", 
         "ownerstree" : "5764 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744-9692", 
@@ -1121,7 +1150,8 @@
         "Shape_Leng" : 693.999504705, 
         "Shape_Area" : 24699.8779237, 
         "Shape__Area" : 4340.875, 
-        "Shape__Length" : 290.719459924302
+        "Shape__Length" : 290.719459924302,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -1146,6 +1176,7 @@
         "OBJECTID" : 15798, 
         "PIN" : "040-025-000-3900-03", 
         "Acres" : 0.630044, 
+        "Address" : "1740 LYNCH, MAYVILLE",
         "send_to_na" : "HOOK JEFFREY R", 
         "ownerstree" : "1740 LYNCH DR", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -1153,7 +1184,8 @@
         "Shape_Leng" : 669.379972032, 
         "Shape_Area" : 27444.7016742, 
         "Shape__Area" : 4823.19140625, 
-        "Shape__Length" : 280.544796882373
+        "Shape__Length" : 280.544796882373,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -1180,6 +1212,7 @@
         "OBJECTID" : 15799, 
         "PIN" : "040-025-000-2200-00", 
         "Acres" : 0.745865, 
+        "Address" : "5796 FULTON, MAYVILLE",
         "send_to_na" : "DEO HAROLD J III", 
         "ownerstree" : "4470 DELL RD", 
         "ownerCityS" : "LANSING MI 48911", 
@@ -1187,7 +1220,8 @@
         "Shape_Leng" : 902.000044156, 
         "Shape_Area" : 32489.8621724, 
         "Shape__Area" : 5709.80078125, 
-        "Shape__Length" : 377.727594162948
+        "Shape__Length" : 377.727594162948,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -1214,6 +1248,7 @@
         "OBJECTID" : 15800, 
         "PIN" : "040-025-000-7200-00", 
         "Acres" : 0.663336, 
+        "Address" : "5840 FULTON, MAYVILLE",
         "send_to_na" : "DICKIE DAVID Z SR", 
         "ownerstree" : "5840 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -1221,7 +1256,8 @@
         "Shape_Leng" : 907.682298168, 
         "Shape_Area" : 28894.9048232, 
         "Shape__Area" : 5077.7265625, 
-        "Shape__Length" : 380.022938569061
+        "Shape__Length" : 380.022938569061,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -1247,6 +1283,7 @@
         "OBJECTID" : 15801, 
         "PIN" : "040-025-000-6100-00", 
         "Acres" : 0.749997, 
+        "Address" : "5836 FULTON, MAYVILLE",
         "send_to_na" : "COLMER DAKODA U", 
         "ownerstree" : "5836 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -1254,7 +1291,8 @@
         "Shape_Leng" : 956.999992341, 
         "Shape_Area" : 32669.8970448, 
         "Shape__Area" : 5741.1796875, 
-        "Shape__Length" : 400.712855935825
+        "Shape__Length" : 400.712855935825,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -1279,14 +1317,16 @@
         "OBJECTID" : 15802, 
         "PIN" : "040-025-000-5200-00", 
         "Acres" : 0.749998, 
-        "send_to_na" : "MEYER MICHAEL", 
+        "Address" : "5832 FULTON, MAYVILLE",
+        "send_to_na" : "MONTNEY JENI", 
         "ownerstree" : "5832 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
         "liberpage" : "01199:00673", 
         "Shape_Leng" : 957.0003107, 
         "Shape_Area" : 32669.902506, 
         "Shape__Area" : 5741.2265625, 
-        "Shape__Length" : 400.71446314738
+        "Shape__Length" : 400.71446314738,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -1313,14 +1353,16 @@
         "OBJECTID" : 15803, 
         "PIN" : "040-025-000-8300-00", 
         "Acres" : 1.2, 
-        "send_to_na" : "TAYLOR KATHLEEN E", 
+        "Address" : "5822 FULTON, MAYVILLE",
+        "send_to_na" : "HEILMAN DARWIN P", 
         "ownerstree" : "5822 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
         "liberpage" : "1367/899", 
         "Shape_Leng" : 1056.00076122, 
         "Shape_Area" : 52271.8952415, 
         "Shape__Area" : 9186.0546875, 
-        "Shape__Length" : 442.292106424123
+        "Shape__Length" : 442.292106424123,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -1348,6 +1390,7 @@
         "OBJECTID" : 15804, 
         "PIN" : "040-025-000-6500-00", 
         "Acres" : 1.49436, 
+        "Address" : "5802 FULTON, MAYVILLE",
         "send_to_na" : "MC KELLAR MICHEAL", 
         "ownerstree" : "5802 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744-9701", 
@@ -1355,7 +1398,8 @@
         "Shape_Leng" : 1146.90935943, 
         "Shape_Area" : 65094.3579776, 
         "Shape__Area" : 11439.578125, 
-        "Shape__Length" : 480.40859344411
+        "Shape__Length" : 480.40859344411,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -1381,6 +1425,7 @@
         "OBJECTID" : 15805, 
         "PIN" : "040-025-000-3950-00", 
         "Acres" : 5.04132, 
+        "Address" : "354 OHMER, MAYVILLE",
         "send_to_na" : "MOORE DOUGLAS G", 
         "ownerstree" : "P O BOX 437", 
         "ownerCityS" : "MAYVILLE MI 48744-0437", 
@@ -1388,7 +1433,8 @@
         "Shape_Leng" : 1984.16779024, 
         "Shape_Area" : 219599.701829, 
         "Shape__Area" : 38593.41796875, 
-        "Shape__Length" : 832.28680520517
+        "Shape__Length" : 832.28680520517,
+        "Zoning" : "LOCAL COMMERCIAL / MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -1415,6 +1461,7 @@
         "OBJECTID" : 15806, 
         "PIN" : "040-025-000-7500-00", 
         "Acres" : 0.624446, 
+        "Address" : "460 W OHMER, MAYVILLE",
         "send_to_na" : "THURLOW SKYLAR", 
         "ownerstree" : "460 W OHMER RD", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -1422,7 +1469,8 @@
         "Shape_Leng" : 688.231704412, 
         "Shape_Area" : 27227.2955517, 
         "Shape__Area" : 4785.12890625, 
-        "Shape__Length" : 288.665398046164
+        "Shape__Length" : 288.665398046164,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -1450,6 +1498,7 @@
         "OBJECTID" : 15807, 
         "PIN" : "040-025-000-3000-00", 
         "Acres" : 1.09993, 
+        "Address" : "5688 LOBDELL RD",
         "send_to_na" : "LASKOWSKI ROSE A", 
         "ownerstree" : "5688 LOBDELL RD", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -1457,7 +1506,8 @@
         "Shape_Leng" : 897.449511476, 
         "Shape_Area" : 47940.5969162, 
         "Shape__Area" : 8425.4453125, 
-        "Shape__Length" : 376.114096251551
+        "Shape__Length" : 376.114096251551,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -1485,6 +1535,7 @@
         "OBJECTID" : 15808, 
         "PIN" : "040-025-000-7400-00", 
         "Acres" : 0.703967, 
+        "Address" : "450 W OHMER, MAYVILLE",
         "send_to_na" : "JOHNSON KENNETH W", 
         "ownerstree" : "P O BOX 677", 
         "ownerCityS" : "MAYVILLE MI 48744-0677", 
@@ -1492,7 +1543,8 @@
         "Shape_Leng" : 745.218155891, 
         "Shape_Area" : 30684.5391279, 
         "Shape__Area" : 5392.71875, 
-        "Shape__Length" : 312.598909154156
+        "Shape__Length" : 312.598909154156,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -1522,6 +1574,7 @@
         "OBJECTID" : 15809, 
         "PIN" : "040-025-000-8000-00", 
         "Acres" : 1.7025, 
+        "Address" : "442 W OHMER, MAYVILLE",
         "send_to_na" : "WERNER DONALD", 
         "ownerstree" : "P O BOX 118", 
         "ownerCityS" : "MAYVILLE MI 48744-0118", 
@@ -1529,7 +1582,8 @@
         "Shape_Leng" : 1107.0257695, 
         "Shape_Area" : 74202.4465433, 
         "Shape__Area" : 13040.84765625, 
-        "Shape__Length" : 464.181445399657
+        "Shape__Length" : 464.181445399657,
+        "Zoning" : "LOCAL COMMERCIAL / MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -1557,6 +1611,7 @@
         "OBJECTID" : 15810, 
         "PIN" : "040-025-000-8100-01", 
         "Acres" : 0.661789, 
+        "Address" : "W OHMER, MAYVILLE",
         "send_to_na" : "WERNER SCOTT DONALD", 
         "ownerstree" : "P O BOX 118", 
         "ownerCityS" : "MAYVILLE MI 48744-0118", 
@@ -1564,7 +1619,9 @@
         "Shape_Leng" : 868.938920019, 
         "Shape_Area" : 28841.4774733, 
         "Shape__Area" : 5068.7890625, 
-        "Shape__Length" : 364.685329778853
+        "Shape__Length" : 364.685329778853,
+        "Zoning" : "LOCAL COMMERCIAL / MEDIUM DENSITY RESIDENTIAL"
+
       }
     }, 
     {
@@ -1592,6 +1649,7 @@
         "OBJECTID" : 15811, 
         "PIN" : "040-025-000-7700-01", 
         "Acres" : 1.29636, 
+        "Address" : "OHMER, MAYVILLE",
         "send_to_na" : "HOPP'S LUMBER & SUPPLY", 
         "ownerstree" : "P O BOX 403", 
         "ownerCityS" : "MAYVILLE MI 48744-0403", 
@@ -1599,7 +1657,8 @@
         "Shape_Leng" : 1081.67556292, 
         "Shape_Area" : 56488.6695167, 
         "Shape__Area" : 9927.671875, 
-        "Shape__Length" : 453.848524734993
+        "Shape__Length" : 453.848524734993,
+        "Zoning" : "LOCAL COMMERCIAL / MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -1628,6 +1687,7 @@
         "OBJECTID" : 15812, 
         "PIN" : "040-025-000-7800-00", 
         "Acres" : 3.66788, 
+        "Address" : "408 W OHMER, MAYVILLE",
         "send_to_na" : "HOPP'S LUMBER & SUPPLY", 
         "ownerstree" : "P O BOX 403", 
         "ownerCityS" : "MAYVILLE MI 48744-0403", 
@@ -1635,7 +1695,8 @@
         "Shape_Leng" : 1670.1457269, 
         "Shape_Area" : 159832.862359, 
         "Shape__Area" : 28089.90625, 
-        "Shape__Length" : 700.469190730391
+        "Shape__Length" : 700.469190730391,
+        "Zoning" : "LOCAL COMMERCIAL / MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -2776,6 +2837,7 @@
         "OBJECTID" : 15845, 
         "PIN" : "040-025-000-6900-00", 
         "Acres" : 0.199972, 
+        "Address" : "5886 FULTON, MAYVILLE",
         "send_to_na" : "VENIA SHELLY M", 
         "ownerstree" : "5886 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744-0047", 
@@ -2783,7 +2845,8 @@
         "Shape_Leng" : 395.999765541, 
         "Shape_Area" : 8710.7622096, 
         "Shape__Area" : 1530.703125, 
-        "Shape__Length" : 165.903277717599
+        "Shape__Length" : 165.903277717599,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -2808,6 +2871,7 @@
         "OBJECTID" : 15846, 
         "PIN" : "040-025-000-6600-00", 
         "Acres" : 0.681235, 
+        "Address" : "5874 FULTON, MAYVILLE",
         "send_to_na" : "LA BEAN SAM R", 
         "ownerstree" : "5874 N FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -2815,7 +2879,8 @@
         "Shape_Leng" : 736.288841758, 
         "Shape_Area" : 29674.5897879, 
         "Shape__Area" : 5214.64453125, 
-        "Shape__Length" : 308.832517536233
+        "Shape__Length" : 308.832517536233,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -3268,6 +3333,7 @@
         "OBJECTID" : 15858, 
         "PIN" : "040-025-000-0310-00", 
         "Acres" : 21.8964, 
+        "Address" : "OHMER RD, MAYVILLE",
         "send_to_na" : "VILLAGE OF MAYVILLE", 
         "ownerstree" : "5950 FOX ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -3275,7 +3341,8 @@
         "Shape_Leng" : 4418.08459004, 
         "Shape_Area" : 953581.993081, 
         "Shape__Area" : 167577.1484375, 
-        "Shape__Length" : 1852.30110090644
+        "Shape__Length" : 1852.30110090644,
+        "Zoning" : "INDUSTRIAL / LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -3300,6 +3367,7 @@
         "OBJECTID" : 15859, 
         "PIN" : "040-025-000-0310-01", 
         "Acres" : 1, 
+        "Address" : "OHMER, MAYVILLE",
         "send_to_na" : "NORTHERN LOG SUPPLY LLC", 
         "ownerstree" : "P O BOX 215", 
         "ownerCityS" : "MAYVILLE MI 48744-0215", 
@@ -3307,7 +3375,8 @@
         "Shape_Leng" : 844.000136511, 
         "Shape_Area" : 43560.0121018, 
         "Shape__Area" : 7655.3203125, 
-        "Shape__Length" : 353.911243096823
+        "Shape__Length" : 353.911243096823,
+        "Zoning" : "INDUSTRIAL / LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -3344,6 +3413,7 @@
         "OBJECTID" : 15860, 
         "PIN" : "040-025-000-0400-00", 
         "Acres" : 9.96175, 
+        "Address" : "OHMER, MAYVILLE",
         "send_to_na" : "NORTHERN LOG SUPPLY LLC", 
         "ownerstree" : "6030 INDUSTRIAL DRIVE PARK", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -3351,7 +3421,8 @@
         "Shape_Leng" : 2951.63840313, 
         "Shape_Area" : 433789.628679, 
         "Shape__Area" : 76233.328125, 
-        "Shape__Length" : 1238.38077548717
+        "Shape__Length" : 1238.38077548717,
+        "Zoning" : "INDUSTRIAL / LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -3536,7 +3607,8 @@
         "FID" : 15377, 
         "OBJECTID" : 15865, 
         "PIN" : "040-025-000-4100-04", 
-        "Acres" : 0.759134, 
+        "Acres" : 0.759134,
+        "Address" : "1699 LYNCH DR, MAYVILLE", 
         "send_to_na" : "LINDBERG DAVE", 
         "ownerstree" : "1699 LYNCH DR", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -3544,7 +3616,8 @@
         "Shape_Leng" : 727.919665382, 
         "Shape_Area" : 33067.8621838, 
         "Shape__Area" : 5811.51953125, 
-        "Shape__Length" : 305.138194909859
+        "Shape__Length" : 305.138194909859,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -3571,6 +3644,7 @@
         "OBJECTID" : 15866, 
         "PIN" : "040-025-000-4100-05", 
         "Acres" : 0.604912, 
+        "Address" : "1717 LYNCH, MAYVILLE",
         "send_to_na" : "ANDRESS WANDA S", 
         "ownerstree" : "1717 LYNCH DR", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -3578,7 +3652,8 @@
         "Shape_Leng" : 700.000754861, 
         "Shape_Area" : 26349.9745547, 
         "Shape__Area" : 4630.8828125, 
-        "Shape__Length" : 293.454783089442
+        "Shape__Length" : 293.454783089442,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -3604,6 +3679,7 @@
         "OBJECTID" : 15867, 
         "PIN" : "040-025-000-4300-00", 
         "Acres" : 0.669686, 
+        "Address" : "19 E OHMER, MAYVILLE",
         "send_to_na" : "PUTMAN HOBART J - TRUSTEE", 
         "ownerstree" : "19 E OHMER RD", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -3611,7 +3687,8 @@
         "Shape_Leng" : 805.772498273, 
         "Shape_Area" : 29171.5173408, 
         "Shape__Area" : 5126.25390625, 
-        "Shape__Length" : 338.105829958512
+        "Shape__Length" : 338.105829958512,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -3639,6 +3716,7 @@
         "OBJECTID" : 15868, 
         "PIN" : "040-025-000-4450-00", 
         "Acres" : 1.06026, 
+        "Address" : "E OHMER, MAYVILLE",
         "send_to_na" : "PUTMAN HOBART J - TRUSTEE", 
         "ownerstree" : "19 E OHMER RD", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -3646,7 +3724,8 @@
         "Shape_Leng" : 988.270294423, 
         "Shape_Area" : 46184.9730905, 
         "Shape__Area" : 8116.03125, 
-        "Shape__Length" : 414.654149693
+        "Shape__Length" : 414.654149693,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -3671,6 +3750,7 @@
         "OBJECTID" : 15869, 
         "PIN" : "040-025-000-5000-02", 
         "Acres" : 1.47813, 
+        "Address" : "5802 LYNCH, MAYVILLE",
         "send_to_na" : "MAYVILLE AREA AMBULANCE SERVIC", 
         "ownerstree" : "P O BOX 181", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -3678,7 +3758,8 @@
         "Shape_Leng" : 1217.97195984, 
         "Shape_Area" : 64387.1312614, 
         "Shape__Area" : 11315.27734375, 
-        "Shape__Length" : 510.327181150314
+        "Shape__Length" : 510.327181150314,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -3709,6 +3790,7 @@
         "OBJECTID" : 15870, 
         "PIN" : "040-025-000-5600-00", 
         "Acres" : 3.61967, 
+        "Address" : "FULTON,",
         "send_to_na" : "VILLAGE OF MAYVILLE", 
         "ownerstree" : " ", 
         "ownerCityS" : "0", 
@@ -3716,7 +3798,8 @@
         "Shape_Leng" : 1698.02680323, 
         "Shape_Area" : 157672.936508, 
         "Shape__Area" : 27708.54296875, 
-        "Shape__Length" : 711.377441546575
+        "Shape__Length" : 711.377441546575,
+        "Zoning" : "PARKS AND PUBLIC SERVICES"
       }
     }, 
     {
@@ -3806,6 +3889,7 @@
         "OBJECTID" : 15873, 
         "PIN" : "040-025-000-5800-00", 
         "Acres" : 2.07296, 
+        "Address" : "FULTON, MAYVILLE",
         "send_to_na" : "VILLAGE OF MAYVILLE", 
         "ownerstree" : " ", 
         "ownerCityS" : "0", 
@@ -3813,7 +3897,8 @@
         "Shape_Leng" : 1207.26181118, 
         "Shape_Area" : 90298.1472526, 
         "Shape__Area" : 15868.50390625, 
-        "Shape__Length" : 506.009439797847
+        "Shape__Length" : 506.009439797847,
+        "Zoning" : "PARKS AND PUBLIC SERVICES"
       }
     }, 
     {
@@ -3842,6 +3927,7 @@
         "OBJECTID" : 15874, 
         "PIN" : "040-025-000-6700-01", 
         "Acres" : 3.56912, 
+        "Address" : "E OHMER, MAYVILLE",
         "send_to_na" : "MAYVILLE STATE BANK", 
         "ownerstree" : "P O BOX 650", 
         "ownerCityS" : "MAYVILLE MI 48744-0032", 
@@ -3849,7 +3935,8 @@
         "Shape_Leng" : 1715.71507334, 
         "Shape_Area" : 155471.003425, 
         "Shape__Area" : 27320.76171875, 
-        "Shape__Length" : 719.139436007326
+        "Shape__Length" : 719.139436007326,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -3886,6 +3973,7 @@
         "OBJECTID" : 15875, 
         "PIN" : "040-025-000-6750-00", 
         "Acres" : 10.1369, 
+        "Address" : "FULTON, MAYVILLE",
         "send_to_na" : "VILLAGE OF MAYVILLE", 
         "ownerstree" : " ", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -3893,7 +3981,8 @@
         "Shape_Leng" : 3082.41150411, 
         "Shape_Area" : 441562.186932, 
         "Shape__Area" : 77595.75, 
-        "Shape__Length" : 1292.09891819275
+        "Shape__Length" : 1292.09891819275,
+        "Zoning" : "PARKS AND PUBLIC SERVICES"
       }
     }, 
     {
@@ -5160,6 +5249,7 @@
         "OBJECTID" : 15913, 
         "PIN" : "040-500-255-0200-00", 
         "Acres" : 0.399942, 
+        "Address" : "20 NORTH, MAYVILLE",
         "send_to_na" : "LA BEAN MICHELE", 
         "ownerstree" : "20 NORTH ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -5167,7 +5257,8 @@
         "Shape_Leng" : 659.998549041, 
         "Shape_Area" : 17421.4814017, 
         "Shape__Area" : 3061.3828125, 
-        "Shape__Length" : 276.766839335906
+        "Shape__Length" : 276.766839335906,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -5192,6 +5283,7 @@
         "OBJECTID" : 15914, 
         "PIN" : "040-500-255-0300-00", 
         "Acres" : 0.199971, 
+        "Address" : "28 NORTH, MAYVILLE",
         "send_to_na" : "JONES WESLEY", 
         "ownerstree" : "28 NORTH ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -5199,7 +5291,8 @@
         "Shape_Leng" : 395.999134418, 
         "Shape_Area" : 8710.74056661, 
         "Shape__Area" : 1530.68359375, 
-        "Shape__Length" : 166.099134971324
+        "Shape__Length" : 166.099134971324,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -5256,6 +5349,7 @@
         "OBJECTID" : 15916, 
         "PIN" : "040-500-256-0100-00", 
         "Acres" : 0.199971, 
+        "Address" : "5906 FULTON, MAYVILLE",
         "send_to_na" : "MC GHEE BRUCE W", 
         "ownerstree" : "5906 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -5263,7 +5357,8 @@
         "Shape_Leng" : 395.999447086, 
         "Shape_Area" : 8710.75165869, 
         "Shape__Area" : 1530.6640625, 
-        "Shape__Length" : 165.901193970168
+        "Shape__Length" : 165.901193970168,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -5291,6 +5386,7 @@
         "OBJECTID" : 15917, 
         "PIN" : "040-500-256-0200-00", 
         "Acres" : 0.351174, 
+        "Address" : "NORTH, MAYVILLE",
         "send_to_na" : "MC GHEE BRUCE W", 
         "ownerstree" : "5906 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -5298,7 +5394,8 @@
         "Shape_Leng" : 500.915380929, 
         "Shape_Area" : 15297.1603535, 
         "Shape__Area" : 2688.02734375, 
-        "Shape__Length" : 209.964691139032
+        "Shape__Length" : 209.964691139032,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -5322,7 +5419,8 @@
         "FID" : 15430, 
         "OBJECTID" : 15918, 
         "PIN" : "040-500-256-0400-00", 
-        "Acres" : 0.257039, 
+        "Acres" : 0.257039,
+        "Address" : "FULTON, MAYVILLE", 
         "send_to_na" : "MC GHEE BRUCE W", 
         "ownerstree" : "5906 FULTON ST", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -5330,7 +5428,8 @@
         "Shape_Leng" : 438.776661752, 
         "Shape_Area" : 11196.5969062, 
         "Shape__Area" : 1967.46484375, 
-        "Shape__Length" : 183.869949465691
+        "Shape__Length" : 183.869949465691,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -5359,6 +5458,7 @@
         "OBJECTID" : 15919, 
         "PIN" : "040-500-256-1000-00", 
         "Acres" : 0.574921, 
+        "Address" : "32 NORTH, MAYVILLE",
         "send_to_na" : "NEPHEW NORMAN", 
         "ownerstree" : "1794 BLUEWATER AVE", 
         "ownerCityS" : "GAYLORD MI 49735-9637", 
@@ -5366,7 +5466,8 @@
         "Shape_Leng" : 758.999337292, 
         "Shape_Area" : 25043.5497062, 
         "Shape__Area" : 4400.75, 
-        "Shape__Length" : 318.34118028398
+        "Shape__Length" : 318.34118028398,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -5392,6 +5493,7 @@
         "OBJECTID" : 15920, 
         "PIN" : "040-500-256-1100-00", 
         "Acres" : 0.203381, 
+        "Address" : "31 NORTH, MAYVILLE",
         "send_to_na" : "HASCALL CLARE A", 
         "ownerstree" : "4442 FRANKLIN ST", 
         "ownerCityS" : "CLIFFORD MI 48727", 
@@ -5399,7 +5501,8 @@
         "Shape_Leng" : 381.625768711, 
         "Shape_Area" : 8859.29068908, 
         "Shape__Area" : 1556.765625, 
-        "Shape__Length" : 159.968913007472
+        "Shape__Length" : 159.968913007472,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -7125,6 +7228,7 @@
         "OBJECTID" : 17002, 
         "PIN" : "040-025-000-6000-01", 
         "Acres" : 0, 
+        "Address" : "OHMER, MAYVILLE",
         "send_to_na" : "LUMSDEN JEFF", 
         "ownerstree" : "3421 N MILLER RD", 
         "ownerCityS" : "DRYDEN MI 48428", 
@@ -7132,7 +7236,8 @@
         "Shape_Leng" : 7228.80698588, 
         "Shape_Area" : 2896136.02923, 
         "Shape__Area" : 508948.91796875, 
-        "Shape__Length" : 3031.50966839638
+        "Shape__Length" : 3031.50966839638,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -7178,6 +7283,7 @@
         "OBJECTID" : 16964, 
         "PIN" : "040-026-000-0100-00", 
         "Acres" : 17.4305, 
+        "Address" : "521 OHMER, MAYVILLE",
         "send_to_na" : "GERI-CARE ENTERPRISES", 
         "ownerstree" : "521 OHMER RD", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -7185,7 +7291,8 @@
         "Shape_Leng" : 6404.70122011, 
         "Shape_Area" : 759534.979102, 
         "Shape__Area" : 133483.19140625, 
-        "Shape__Length" : 2682.13243683638
+        "Shape__Length" : 2682.13243683638,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -7313,6 +7420,7 @@
         "OBJECTID" : 16984, 
         "PIN" : "040-025-000-3900-04", 
         "Acres" : 0, 
+        "Address" : "MAYVILLE",
         "send_to_na" : "LINDBERG DAVE", 
         "ownerstree" : "1699 LYNCH DR", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -7320,7 +7428,8 @@
         "Shape_Leng" : 3607.13488592, 
         "Shape_Area" : 364852.956441, 
         "Shape__Area" : 64120.53125, 
-        "Shape__Length" : 1512.3674209284
+        "Shape__Length" : 1512.3674209284,
+        "Zoning" : "LOCAL COMMERCIAL / MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -7359,6 +7468,7 @@
         "OBJECTID" : 16985, 
         "PIN" : "040-025-000-4400-00", 
         "Acres" : 0, 
+        "Address" : "OHMER, MAYVILLE",
         "send_to_na" : "MAYVILLE GOLDEN YEARS CLUB", 
         "ownerstree" : "265 W SNOVER RD", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -7366,7 +7476,8 @@
         "Shape_Leng" : 3852.9322576, 
         "Shape_Area" : 908215.899723, 
         "Shape__Area" : 159600.734375, 
-        "Shape__Length" : 1615.39219972359
+        "Shape__Length" : 1615.39219972359,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }, 
     {
@@ -7395,6 +7506,7 @@
         "OBJECTID" : 17000, 
         "PIN" : "040-025-000-2610-00", 
         "Acres" : 0, 
+        "Address" : "405 E OHMER, MAYVILLE",
         "send_to_na" : "PK MAYVILLE", 
         "ownerstree" : "1784 HAMILTON RD", 
         "ownerCityS" : "OKEMOS MI 48864", 
@@ -7402,7 +7514,8 @@
         "Shape_Leng" : 1472.63329565, 
         "Shape_Area" : 100830.074995, 
         "Shape__Area" : 17717.37890625, 
-        "Shape__Length" : 617.09294533041
+        "Shape__Length" : 617.09294533041,
+        "Zoning" : "HIGH DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -10563,7 +10676,8 @@
         "OBJECTID" : 15293, 
         "PIN" : "040-500-134-0700-00", 
         "Acres" : 0.699991, 
-        "send_to_na" : "WELLS FARGO BANK", 
+        "Address" : "6245 FULTON, MAYVILLE",
+        "send_to_na" : "ANGELES JUAN CARLOS", 
         "ownerstree" : "3476 STATEVIEW BLVD", 
         "ownerCityS" : "FORT MILL SC 29715", 
         "liberpage" : "1386/1335", 
@@ -17801,6 +17915,7 @@
         "OBJECTID" : 19848, 
         "PIN" : "040-025-000-6700-00", 
         "Acres" : 0.826814, 
+        "Address" : "NO INFO",
         "send_to_na" : " ", 
         "ownerstree" : " ", 
         "ownerCityS" : " ", 
@@ -17808,7 +17923,8 @@
         "Shape_Leng" : 954.365940361, 
         "Shape_Area" : 36016.0039606, 
         "Shape__Area" : 6328.921875, 
-        "Shape__Length" : 399.825451999761
+        "Shape__Length" : 399.825451999761,
+        "Zoning" : "LOCAL COMMERCIAL"
       }
     }
   ]

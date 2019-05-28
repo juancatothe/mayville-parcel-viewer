@@ -8,7 +8,7 @@ class ParcelDetails extends React.Component{
     render() {
         return(
             <div id="parcel-details">
-                <h2>Parcel Details</h2>
+                <h1>Village of Mayville</h1>
                 <p>{this.props.ownerName}</p>
                 <p>{this.props.ownerAddress1}</p>
                 <p>{this.props.ownerAddress2}</p>
