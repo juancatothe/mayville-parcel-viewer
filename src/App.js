@@ -57,7 +57,8 @@ class App extends Component {
         ownerName: event.features[0].properties.send_to_na,
         ownerAddress1: event.features[0].properties.ownerstree,
         ownerAddress2: event.features[0].properties.ownerCityS,
-        PIN: event.features[0].properties.PIN
+        PIN: event.features[0].properties.PIN,
+        streetAddress: event.features[0].properties.Address
       });
       //this.fetchData(event.features[0].properties.PIN)
       //this._goToCoords({x:center[0], y:center[1]})
@@ -77,6 +78,7 @@ class App extends Component {
         mapboxApiAccessToken={MAPBOX_TOKEN} >
       </MapGL>
       <ParcelDetails
+        streetAddress={this.state.streetAddress}
         acres={this.state.acres}
         ownerName={this.state.ownerName}
         ownerAddress1={this.state.ownerAddress1}
