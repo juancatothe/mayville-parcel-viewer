@@ -58,7 +58,8 @@ class App extends Component {
         ownerAddress1: event.features[0].properties.ownerstree,
         ownerAddress2: event.features[0].properties.ownerCityS,
         PIN: event.features[0].properties.PIN,
-        streetAddress: event.features[0].properties.Address
+        streetAddress: event.features[0].properties.Address,
+        zoning: event.features[0].properties.Zoning
       });
       //this.fetchData(event.features[0].properties.PIN)
       //this._goToCoords({x:center[0], y:center[1]})
@@ -84,6 +85,7 @@ class App extends Component {
         ownerAddress1={this.state.ownerAddress1}
         ownerAddress2={this.state.ownerAddress2}
         PIN={this.state.PIN}
+        zoning={this.state.zoning}
       />
       </div>
     );
