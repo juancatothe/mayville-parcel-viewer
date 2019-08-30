@@ -3044,6 +3044,7 @@
         "OBJECTID" : 15848, 
         "PIN" : "040-036-000-1200-00", 
         "Acres" : 0.606051, 
+        "Address" : "241 W MAIN, MAYVILLE",
         "send_to_na" : "FRIDAY JAY", 
         "ownerstree" : " ", 
         "ownerCityS" : " ", 
@@ -3051,7 +3052,8 @@
         "Shape_Leng" : 727.997294959, 
         "Shape_Area" : 26399.5929955, 
         "Shape__Area" : 4638.57421875, 
-        "Shape__Length" : 305.401998466214
+        "Shape__Length" : 305.401998466214,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -3086,7 +3088,7 @@
         "Shape_Area" : 26399.3080034, 
         "Shape__Area" : 4638.51953125, 
         "Shape__Length" : 305.399636463143,
-        "Zoning" : "MEDIUM"
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -3113,6 +3115,7 @@
         "OBJECTID" : 15850, 
         "PIN" : "040-036-000-0600-00", 
         "Acres" : 0.172175, 
+        "Address" : "W MAIN, MAYVILLE",
         "send_to_na" : "CONSUMERS ENERGY COMPANY", 
         "ownerstree" : "ENERGY PLAZA", 
         "ownerCityS" : "JACKSON MI 49201", 
@@ -3120,7 +3123,8 @@
         "Shape_Leng" : 400.000154778, 
         "Shape_Area" : 7499.92811676, 
         "Shape__Area" : 1317.79296875, 
-        "Shape__Length" : 167.819035302045
+        "Shape__Length" : 167.819035302045,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -3150,6 +3154,7 @@
         "OBJECTID" : 15851, 
         "PIN" : "040-036-000-0500-02", 
         "Acres" : 3.27886, 
+        "Address" : "339 W MAIN, MAYVILLE",
         "send_to_na" : "FISCHER ELMER W", 
         "ownerstree" : "P O BOX 623", 
         "ownerCityS" : "MAYVILLE MI 48744-0623", 
@@ -3157,7 +3162,8 @@
         "Shape_Leng" : 1864.69956986, 
         "Shape_Area" : 142827.113427, 
         "Shape__Area" : 25095.01171875, 
-        "Shape__Length" : 782.396477694352
+        "Shape__Length" : 782.396477694352,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -3185,6 +3191,7 @@
         "OBJECTID" : 15852, 
         "PIN" : "040-036-000-0500-01", 
         "Acres" : 36.8722, 
+        "Address" : "W MAIN, MAYVILLE",
         "send_to_na" : "KELCH CLEVE D", 
         "ownerstree" : "P O BOX 128", 
         "ownerCityS" : "MAYVILLE MI 48744-0128", 
@@ -3192,7 +3199,8 @@
         "Shape_Leng" : 6628.55479055, 
         "Shape_Area" : 1606151.9032, 
         "Shape__Area" : 282178.18359375, 
-        "Shape__Length" : 2781.33042713085
+        "Shape__Length" : 2781.33042713085,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -3239,6 +3247,7 @@
         "OBJECTID" : 15853, 
         "PIN" : "040-036-000-0200-00", 
         "Acres" : 39.9701, 
+        "Address" : "285 W MAIN, MAYVILLE",
         "send_to_na" : "MC NINCH MARILYN", 
         "ownerstree" : "P O BOX 152", 
         "ownerCityS" : "MAYVILLE MI 48744-0152", 
@@ -3246,7 +3255,8 @@
         "Shape_Leng" : 6632.04789524, 
         "Shape_Area" : 1741096.82793, 
         "Shape__Area" : 305888.66015625, 
-        "Shape__Length" : 2782.82557861111
+        "Shape__Length" : 2782.82557861111,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -4352,6 +4362,7 @@
         "OBJECTID" : 15882, 
         "PIN" : "040-500-102-0250-00", 
         "Acres" : 0.306765, 
+        "Address" : "110 E MAIN, MAYVILLE",
         "send_to_na" : "SMITH JESSICSA LEE - TRUST", 
         "ownerstree" : "P O BOX 465", 
         "ownerCityS" : "MAYVILLE MI 48744-0465", 
@@ -4359,7 +4370,8 @@
         "Shape_Leng" : 565.99901963, 
         "Shape_Area" : 13362.6891854, 
         "Shape__Area" : 2347.91796875, 
-        "Shape__Length" : 237.477407341029
+        "Shape__Length" : 237.477407341029,
+        "Zoning" : "CENTRAL BUSINESS DISTRICT"
       }
     }, 
     {
@@ -4385,6 +4397,7 @@
         "OBJECTID" : 15883, 
         "PIN" : "040-500-103-0100-00", 
         "Acres" : 0.176133, 
+        "Address" : "36 E MAIN, MAYVILLE",
         "send_to_na" : "GORDE MICHAEL J", 
         "ownerstree" : "P O BOX 469", 
         "ownerCityS" : "MAYVILLE MI 48744-0469", 
@@ -4392,7 +4405,8 @@
         "Shape_Leng" : 350.999986633, 
         "Shape_Area" : 7672.35062893, 
         "Shape__Area" : 1348.08984375, 
-        "Shape__Length" : 147.114939658975
+        "Shape__Length" : 147.114939658975,
+        "Zoning" : "CENTRAL BUSINESS DISTRICT"
       }
     }, 
     {
@@ -4419,6 +4433,7 @@
         "OBJECTID" : 15884, 
         "PIN" : "040-500-103-0200-00", 
         "Acres" : 0.0446958, 
+        "Address" : "E MAIN, MAYVILLE",
         "send_to_na" : "MAYVILLE FRATERNAL ORDER", 
         "ownerstree" : "P O BOX 487", 
         "ownerCityS" : "MAYVILLE MI 48744-0487", 
@@ -4426,7 +4441,8 @@
         "Shape_Leng" : 190.999892459, 
         "Shape_Area" : 1946.9511101, 
         "Shape__Area" : 342.0859375, 
-        "Shape__Length" : 80.1169202337501
+        "Shape__Length" : 80.1169202337501,
+        "Zoning" : "CENTRAL BUSINESS DISTRICT"
       }
     }, 
     {
@@ -4454,6 +4470,7 @@
         "OBJECTID" : 15885, 
         "PIN" : "040-500-103-0210-00", 
         "Acres" : 0.0611632, 
+        "Address" : "20 E MAIN, MAYVILLE",
         "send_to_na" : "MAYVILLE FRATERNAL ORDER", 
         "ownerstree" : "P O BOX 487", 
         "ownerCityS" : "MAYVILLE MI 48744-0487", 
@@ -4461,7 +4478,8 @@
         "Shape_Leng" : 228.830481355, 
         "Shape_Area" : 2664.26719324, 
         "Shape__Area" : 468.12890625, 
-        "Shape__Length" : 95.9937941133202
+        "Shape__Length" : 95.9937941133202,
+        "Zoning" : "CENTRAL BUSINESS DISTRICT"
       }
     }, 
     {
@@ -11134,7 +11152,8 @@
         "Shape_Leng" : 725.999684591, 
         "Shape_Area" : 30491.6051539, 
         "Shape__Area" : 5356.8671875, 
-        "Shape__Length" : 304.153009902481
+        "Shape__Length" : 304.153009902481,
+        "Zoning" : "MEDIUM DENSITY RESIDENTIAL"
       }
     }, 
     {
@@ -11230,6 +11249,7 @@
         "OBJECTID" : 15296, 
         "PIN" : "040-500-135-1000-00", 
         "Acres" : 0.177271, 
+        "Address" : "PINE, MAYVILLE",
         "send_to_na" : "MAYVILLE COMMUNITY SCHOOL", 
         "ownerstree" : " ", 
         "ownerCityS" : "MAYVILLE MI 48744", 
@@ -11237,7 +11257,8 @@
         "Shape_Leng" : 366.000254543, 
         "Shape_Area" : 7721.91377679, 
         "Shape__Area" : 1356.5625, 
-        "Shape__Length" : 153.329065210046
+        "Shape__Length" : 153.329065210046,
+        "Zoning" : "PARKS AND PUBLIC SERVICES"
       }
     }, 
     {

@@ -14,7 +14,7 @@ class ParcelDetails extends React.Component{
                 <p>Owner City: {this.props.ownerAddress2}</p>
                 <p>Acres: {this.props.acres}</p>
                 <p>Parcel ID: {this.props.PIN}</p>
-                <p>Zoning: {this.props.Zoning}</p>
+                <p>Zoning: {this.props.zoning}</p>
             </div>
         )
     }

@@ -35,7 +35,7 @@ class App extends Component {
         minPitch: 0,
         maxPitch: 0
       },
-      mapStyle: 'mapbox://styles/juancatothe/cju1ofshw1hgk1flke5q8xja6',
+      mapStyle: 'mapbox://styles/juancatothe/cjzxknl0j1u0x1cov0b2jw8mr',
       acres: null,
       ownerName: null,
       ownerAddress1: null,
