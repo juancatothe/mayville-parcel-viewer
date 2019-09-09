@@ -1,4 +1,5 @@
 import React from 'react';
+import StreetView from './StreetView';
 
 class ParcelDetails extends React.Component{
     constructor(props) {
@@ -15,6 +16,7 @@ class ParcelDetails extends React.Component{
                 <p>Acres: {this.props.acres}</p>
                 <p>Parcel ID: {this.props.PIN}</p>
                 <p>Zoning: {this.props.zoning}</p>
+                {this.props.coords && <StreetView coords={this.props.coords}></StreetView>}
             </div>
         )
     }

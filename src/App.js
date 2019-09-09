@@ -40,7 +40,8 @@ class App extends Component {
       ownerName: null,
       ownerAddress1: null,
       ownerAddress2: null,
-      PIN: null
+      PIN: null,
+      coords: null
     }
   }
 
@@ -59,7 +60,8 @@ class App extends Component {
         ownerAddress2: event.features[0].properties.ownerCityS,
         PIN: event.features[0].properties.PIN,
         streetAddress: event.features[0].properties.Address,
-        zoning: event.features[0].properties.Zoning
+        zoning: event.features[0].properties.Zoning,
+        coords: event.features[0].geometry.coordinates
       });
       //this.fetchData(event.features[0].properties.PIN)
       //this._goToCoords({x:center[0], y:center[1]})
@@ -86,6 +88,7 @@ class App extends Component {
         ownerAddress2={this.state.ownerAddress2}
         PIN={this.state.PIN}
         zoning={this.state.zoning}
+        coords={this.state.coords}
       />
       </div>
     );
