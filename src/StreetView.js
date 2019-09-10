@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import * as Mapillary from "mapillary-js";
 import bearing from "@turf/bearing";
+import { connect } from "net";
 
 let clientid = "dkhrbnBqUXhCMm9lOUlOdHI3akc3dzpjMzYxYWJiNDZjNjAyOTM4";
 
@@ -86,7 +87,7 @@ let markerStyle = {
 };
 
 const StreetView = ({ coords }) => {
-
+  let mapillaryView
   // local state to store the mapillary viewer
   const [mapillary, setMapillary] = useState(null)
   
@@ -95,6 +96,8 @@ const StreetView = ({ coords }) => {
     console.log(coords)
     fetchImageKey(coords)
       .then(d => {
+        coords.lng = coords[0][0][0]
+        coords.lat = coords[0][0][1]
         // make a new mapillary viewer
         let mapillaryView = new Mapillary.Viewer("mly", clientid, null, {
           component: {
@@ -103,8 +106,9 @@ const StreetView = ({ coords }) => {
           }
         });
         // tell it to go to the image we we just got back from fetchImageKey
+        console.log(d)
         mapillaryView.moveToKey(d.features[0].properties.key).then(node => {
-          setBearing(node, mapillaryView, d.geometry.coordinates, [
+          setBearing(node, mapillaryView, d.features[0].geometry.coordinates, [
             coords.lng,
             coords.lat
           ]);
@@ -118,7 +122,7 @@ const StreetView = ({ coords }) => {
     if (mapillary) {
       fetchImageKey(coords).then(d => {
         mapillary.moveToKey(d.features[0].properties.key).then(node => {
-          setBearing(node, mapillary, d.geometry.coordinates, [
+          setBearing(node, mapillary, d.features[0].geometry.coordinates, [
             coords.lng,
             coords.lat
           ]);
@@ -133,6 +137,20 @@ const StreetView = ({ coords }) => {
       let markerComponent = mapillary.getComponent("marker");
       markerComponent.add([defaultMarker]);
     }
+
+    // mapillaryView = new Mapillary.Viewer("mly", clientid, null, {
+    //   component: {
+    //     cover: false,
+    //     marker: true
+    //   }
+    // });
+
+    // mapillaryView.moveToKey(d.features[0].properties.key).then(node => {
+    //   setBearing(node, mapillaryView, d.features[0].geometry.coordinates, [
+    //     coords[0][0][0],
+    //     coords[0][0][1]
+    //   ]);
+    // });
   }, [coords])
 
   return (
