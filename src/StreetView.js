@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import * as Mapillary from "mapillary-js";
 import bearing from "@turf/bearing";
-import { connect } from "net";
 
 let clientid = "dkhrbnBqUXhCMm9lOUlOdHI3akc3dzpjMzYxYWJiNDZjNjAyOTM4";
 
@@ -70,7 +69,7 @@ function setBearing(node, mly, start, end) {
  * Promise-returning function to fetch a new Mapillary imageKey based on some coordinates
  */
 const fetchImageKey = coords => {
-  let lnglat = `${coords[0][0][0]},${coords[0][0][1]}`;
+  let lnglat = `${coords[0]},${coords[1]}`;
   console.log(lnglat)
   let url = `https://a.mapillary.com/v3/images?client_id=${clientid}&closeto=${lnglat}&usernames=juancatothe`;
   console.log(url)
@@ -96,8 +95,8 @@ const StreetView = ({ coords }) => {
     console.log(coords)
     fetchImageKey(coords)
       .then(d => {
-        coords.lng = coords[0][0][0]
-        coords.lat = coords[0][0][1]
+        coords.lng = coords[0]
+        coords.lat = coords[1]
         // make a new mapillary viewer
         let mapillaryView = new Mapillary.Viewer("mly", clientid, null, {
           component: {
@@ -147,8 +146,8 @@ const StreetView = ({ coords }) => {
 
     // mapillaryView.moveToKey(d.features[0].properties.key).then(node => {
     //   setBearing(node, mapillaryView, d.features[0].geometry.coordinates, [
-    //     coords[0][0][0],
-    //     coords[0][0][1]
+    //     coords[0],
+    //     coords[1]
     //   ]);
     // });
   }, [coords])

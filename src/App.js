@@ -61,7 +61,7 @@ class App extends Component {
         PIN: event.features[0].properties.PIN,
         streetAddress: event.features[0].properties.Address,
         zoning: event.features[0].properties.Zoning,
-        coords: event.features[0].geometry.coordinates
+        coords: event.lngLat
       });
       //this.fetchData(event.features[0].properties.PIN)
       //this._goToCoords({x:center[0], y:center[1]})
