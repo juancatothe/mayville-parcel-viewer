@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-
 import MapGL, { FlyToInterpolator } from 'react-map-gl';
-
 import centroid from '@turf/centroid';
-
 import './App.css';
 import ParcelDetails from './ParcelDetails';
+import Legend from './Legend';
 
 const MAPBOX_TOKEN = 'pk.eyJ1IjoianVhbmNhdG90aGUiLCJhIjoiY2p1MW9lYzdrMDN1MTN5cGVyYXVhMGw3NSJ9.8m02a0ot4-sQBBz7OfU0ng';
 
@@ -67,6 +65,15 @@ class App extends Component {
       //this._goToCoords({x:center[0], y:center[1]})
     }
   }
+  
+  /*highlightParcel(PIN) {
+    let style = this.state.mapStyle
+    let layerIndex = style.toJS().layers.findIndex(lyr => lyr.id === 'parcels-highlight')
+    style = style.setIn(['layers', layerIndex, 'filter', 2], PIN)
+    this.setState({
+      mapStyle: style,
+    })
+  }*/
 
   render() {
     const {viewport, settings, mapStyle} = this.state;
@@ -80,6 +87,7 @@ class App extends Component {
         onClick={this._onClick}
         mapboxApiAccessToken={MAPBOX_TOKEN} >
       </MapGL>
+      <Legend></Legend>
       <ParcelDetails
         streetAddress={this.state.streetAddress}
         acres={this.state.acres}

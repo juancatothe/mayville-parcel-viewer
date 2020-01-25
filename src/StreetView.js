@@ -69,6 +69,7 @@ function setBearing(node, mly, start, end) {
  * Promise-returning function to fetch a new Mapillary imageKey based on some coordinates
  */
 const fetchImageKey = coords => {
+  
   let lnglat = `${coords[0]},${coords[1]}`;
   console.log(lnglat)
   let url = `https://a.mapillary.com/v3/images?client_id=${clientid}&closeto=${lnglat}&usernames=juancatothe`;
@@ -85,19 +86,21 @@ let markerStyle = {
   radius: 2
 };
 
+    
 const StreetView = ({ coords }) => {
   let mapillaryView
   // local state to store the mapillary viewer
   const [mapillary, setMapillary] = useState(null)
+  const [imageExists, setImageExists] = useState(null);
   
   // initial useEffect: spin up a viewer
   useEffect(() => {
-    console.log(coords)
     fetchImageKey(coords)
       .then(d => {
         coords.lng = coords[0]
         coords.lat = coords[1]
         // make a new mapillary viewer
+        if(d.features[0]) {setImageExists(true)}else{setImageExists(false)}
         let mapillaryView = new Mapillary.Viewer("mly", clientid, null, {
           component: {
             cover: false,
@@ -120,6 +123,8 @@ const StreetView = ({ coords }) => {
   useEffect(() => {
     if (mapillary) {
       fetchImageKey(coords).then(d => {
+        if(d.features[0]) {setImageExists(true)}else{setImageExists(false)}
+        console.log(d.features[0])
         mapillary.moveToKey(d.features[0].properties.key).then(node => {
           setBearing(node, mapillary, d.features[0].geometry.coordinates, [
             coords.lng,
@@ -153,7 +158,9 @@ const StreetView = ({ coords }) => {
   }, [coords])
 
   return (
-    <div id="mly"></div>
+    <div>
+      <div id="mly" className={imageExists && "show"}></div>
+    </div>
   )
 }
 

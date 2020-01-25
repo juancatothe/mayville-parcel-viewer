@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:600,700|Work+Sans&display=swap');
+
 #parcel-details{
   position: absolute;
   left: 0;
@@ -5,7 +7,120 @@
   background: white;
   height: 100vh;
   width: 25vw;
+  border-right: 5px groove grey;
+  padding: 1em;
 }
+
+#parcel-details p{
+  font-family: 'Work Sans';
+  font-size: 0.9em;
+}
+
+#parcel-details p span{
+ font-family: 'Quicksand', sans-serif;
+ font-size: 1.1em;
+}
+
 #mly{
-  height: 500px;
+  height: 360px;
+}
+
+#logo-container{
+  width: 100%;
+  text-align: center;
+  margin: 10px auto 30px auto;
+}
+
+#logo{
+  font-family: 'Quicksand', sans-serif;
+  background: #8c001a;
+  color: white;
+  padding: 0 15px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#logo img{
+  max-width: 25px; 
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: text-bottom;
+}
+#logo h2{
+  display: inline-block;
+}
+
+#map-legend{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: white;
+  border: 1px solid black;
+  padding-right: 10px;
+}
+
+#map-legend h3{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#map-legend ul{
+  float: left;
+}
+
+#map-legend ul li{
+  list-style-type: none;
+}
+
+#map-legend span{
+  width: 2em;
+  height: 1em;
+  border: 1px solid black;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+[data-zoning]{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid black;
+  vertical-align: middle;
+  margin-left: 3px;;
+}
+
+#medium-density-residential, [data-zoning="MEDIUM DENSITY RESIDENTIAL"]{
+  background: #f7fbc1;
+}
+#central-business-district, [data-zoning="CENTRAL BUSINESS DISTRICT"]{
+  background: #c5b1ed; 
+}
+#non-conforming, [data-zoning="NONCONFORMING"]{
+  background: #8a052d;
+}
+#high-density-residential, [data-zoning="HIGH DENSITY RESIDENTIAL"]{
+  background: #fff700
+}
+#historic-downtown, [data-zoning="HISTORIC DOWNTOWN"]{
+  background: #1723cf;
+}
+#parks-and-public-services, [data-zoning="PARKS AND PUBLIC SERVICES"]{
+  background: #d1ffff;
+}
+#parking, [data-zoning="PARKING"]{
+  background: #686564;
+}
+#industrial, [data-zoning="INDUSTRIAL"]{
+  background: #dd5f8f;
+}
+#local-commercial, [data-zoning="LOCAL COMMERCIAL"]{
+  background: #fbc1c8;
+}
+#local-commercial-medium-density-residential, [data-zoning="LOCAL COMMERCIAL / MEDIUM DENSITY RESIDENTIAL"]{
+  background: #f9dfc3;
+}
+#local-commercial-industrial, [data-zoning="INDUSTRIAL / LOCAL COMMERCIAL"]{
+  background: #f3a0b6;
 }
