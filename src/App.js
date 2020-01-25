@@ -76,13 +76,12 @@ class App extends Component {
   }*/
 
   render() {
-    const {viewport, settings, mapStyle} = this.state;
     return (
       <div>
       <MapGL
-        {...viewport}
-        {...settings}
-        mapStyle={mapStyle}
+        {...this.state.viewport}
+        {...this.state.settings}
+        mapStyle={this.state.mapStyle}
         onViewportChange={this._onViewportChange}
         onClick={this._onClick}
         mapboxApiAccessToken={MAPBOX_TOKEN} >

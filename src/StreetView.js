@@ -69,7 +69,6 @@ function setBearing(node, mly, start, end) {
  * Promise-returning function to fetch a new Mapillary imageKey based on some coordinates
  */
 const fetchImageKey = coords => {
-  
   let lnglat = `${coords[0]},${coords[1]}`;
   console.log(lnglat)
   let url = `https://a.mapillary.com/v3/images?client_id=${clientid}&closeto=${lnglat}&usernames=juancatothe`;
@@ -97,10 +96,9 @@ const StreetView = ({ coords }) => {
   useEffect(() => {
     fetchImageKey(coords)
       .then(d => {
-        coords.lng = coords[0]
-        coords.lat = coords[1]
+        if(d.features[0]) {setImageExists(true)
+        document.getElementById("mly").innerHTML = "";
         // make a new mapillary viewer
-        if(d.features[0]) {setImageExists(true)}else{setImageExists(false)}
         let mapillaryView = new Mapillary.Viewer("mly", clientid, null, {
           component: {
             cover: false,
@@ -108,58 +106,22 @@ const StreetView = ({ coords }) => {
           }
         });
         // tell it to go to the image we we just got back from fetchImageKey
-        console.log(d)
         mapillaryView.moveToKey(d.features[0].properties.key).then(node => {
           setBearing(node, mapillaryView, d.features[0].geometry.coordinates, [
-            coords.lng,
-            coords.lat
+            coords[0],
+            coords[1]
           ]);
         });
         setMapillary(mapillaryView)
+        }else{setImageExists(false)}
       })
-  }, [])
-
-  // when coords changes, fetch new image key based on coords
-  useEffect(() => {
-    if (mapillary) {
-      fetchImageKey(coords).then(d => {
-        if(d.features[0]) {setImageExists(true)}else{setImageExists(false)}
-        console.log(d.features[0])
-        mapillary.moveToKey(d.features[0].properties.key).then(node => {
-          setBearing(node, mapillary, d.features[0].geometry.coordinates, [
-            coords.lng,
-            coords.lat
-          ]);
-        });
-      })
-
-      let defaultMarker = new Mapillary.MarkerComponent.SimpleMarker(
-        "default-id",
-        { lat: coords.lat, lon: coords.lng },
-        markerStyle
-      );
-      let markerComponent = mapillary.getComponent("marker");
-      markerComponent.add([defaultMarker]);
-    }
-
-    // mapillaryView = new Mapillary.Viewer("mly", clientid, null, {
-    //   component: {
-    //     cover: false,
-    //     marker: true
-    //   }
-    // });
-
-    // mapillaryView.moveToKey(d.features[0].properties.key).then(node => {
-    //   setBearing(node, mapillaryView, d.features[0].geometry.coordinates, [
-    //     coords[0],
-    //     coords[1]
-    //   ]);
-    // });
   }, [coords])
+
+  console.log(imageExists)
 
   return (
     <div>
-      <div id="mly" className={imageExists && "show"}></div>
+      <div id="mly" className={imageExists ? "show" : "hide"}></div>
     </div>
   )
 }
